@@ -1,3 +1,60 @@
+<html>
 <head>
-<link rel="stylesheet" href="css/pico.min.css">
+  <title>File Browser</title>
+  <link rel="stylesheet" href="css/pico.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+<body>
+  <main class="container">
+    <h1>File Browser</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>File icon</th>
+          <th>File name</th>
+          <th>File type</th>
+          <th>File size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i class="fa-solid fa-image"></i></td>
+          <td><a href="image.png">helloworld.png</a></td>
+          <td>PNG</td>
+          <td>24 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="example.html">helloworld.html</a></td>
+          <td>HTML</td>
+          <td>1 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="data.json">helloworld.json</a></td>
+          <td>JSON</td>
+          <td>1 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-lines"></i></td>
+          <td><a href="notes.txt">helloworld.txt</a></td>
+          <td>Plain text</td>
+          <td>0.5 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-pdf"></i></td>
+          <td><a href="sample.pdf">helloworld.pdf</a></td>
+          <td>PDF</td>
+          <td>15 KB</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Observations</h2>
+    <ul>
+      <li>The PDF opened inside the browser using the built-in PDF viewer.</li>
+      <li>The JSON file showed as plain text instead of a formatted webpage.</li>
+      <li>The image displayed directly in the browser, while the HTML file rendered as a page.</li>
+    </ul>
+  </main>
+</body>
+</html>
